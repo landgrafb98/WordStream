@@ -8,7 +8,7 @@ var svg = d3.select("body").append('svg')
     });
 var fileList = ["WikiNews", "Huffington", "CrooksAndLiars", "EmptyWheel", "Esquire", "FactCheck", "VIS_papers", "IMDB", "PopCha", "Cards_PC", "Cards_Fries", "QuantumComputing", "thenews", "standard"]
 
-var initialDataset = "EmptyWheel";
+var initialDataset = "thenews";
 var categories = ["person", "location", "organization", "miscellaneous"];
 
 var fileName;
